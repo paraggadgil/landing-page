@@ -70,6 +70,8 @@ These fixes improve installer reliability and environment setup, reducing fricti
 
 ✅ **OC-5352: Threshold Cross References Schedule Names Corrected** Fixed an issue where Threshold Cross References in Solution Manager were not displaying the correct schedule names.
 
+✅ **OC-7709: Resolved a reliability issue in the NetCom, Request Router, SchedMan, and LSAM Data Retriever services that could cause them to fail under heavy system load. Logging and configuration handling in these services have been improved to prevent recurrence.
+
 ### Why This Matters
 These updates improve API accuracy, reduce log noise, and ensure date and privilege data is handled correctly across integrations and automations.
 
